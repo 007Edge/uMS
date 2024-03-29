@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Management System</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your custom CSS file -->
+    <style>
+        body {
+
+        background: url('b1.jpg') no-repeat center center fixed;
+
+        background-size: cover; /* for IE9+, Safari 4.1+, Chrome 3.0+, Firefox 3.6+ */
+        -webkit-background-size: cover; /* for Safari 3.0 - 4.0 , Chrome 1.0 - 3.0 */
+        -moz-background-size: cover; /* optional for Firefox 3.6 */ 
+        -o-background-size: cover; /* for Opera 9.5 */
+        margin: 0; /* to remove the default white margin of body */
+        padding: 0; /* to remove the default white margin of body */
+        overflow: hidden;
+             }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Welcome to University Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About University Management System</h2>
+            <p>The University Management System (UMS) is a pivotal tool in the modern educational landscape, designed to streamline the administrative and academic processes of higher education institutions. This comprehensive system encompasses a wide array of functionalities to support the university’s core operations, including student enrollment, course management, fee processing, and examination administration.<br>
+
+                At its core, the UMS serves as an educational ERP (Enterprise Resource Planning) product, enabling seamless collaboration among teachers, students, parents, and external stakeholders. By providing a unified platform for communication and information exchange, it fosters a more cohesive educational environment1.<br>
+                
+                One of the key benefits of a UMS is the automation of routine tasks. From tracking attendance to disseminating announcements and managing schedules, the system reduces manual labor, thereby enhancing efficiency and accuracy1. It also supports the implementation of a choice-based credit system, promoting educational flexibility and student-centric learning.</p>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Features</h2>
+            <ul>
+                <li>Automated Admission Processes</li>
+                <li>Data Security and Integrity:</li>
+                <li>Faculty management</li>
+                <li>Course management</li>
+                <li>Attendance tracking</li>
+                <li>Grades management</li>
+                <li>Financial management</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to contact us:</p>
+            <form action="contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 University Management System</p>
+        </div>
+    </footer>
+
+</body>
+</html>
